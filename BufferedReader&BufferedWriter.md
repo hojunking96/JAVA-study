@@ -1,6 +1,7 @@
 scanner는 입출력 시 시간이 오래걸림
 -> BufferedReader & BufferedWriter 사용
 
+
 #BufferedReader 사용
 
 BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
@@ -16,6 +17,7 @@ int a = Integer.parseInt(st.nextToken());
 int b = Integer.parseInt(st.nextToken());
 
 bf.close(); //마지막 종료시키기
+  
   
 #BufferedWriter 사용
 
